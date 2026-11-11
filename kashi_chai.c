@@ -32,7 +32,7 @@ else if(code_input==1){
              printf("You selected masala chai\n");
              printf("Enter quantity:");
             scanf("%d",&quantity);
-             price_masala=15;
+             price_masala=25;
              price_masala=price_masala*quantity;
 
             printf("Your total is:%d",price_masala);}
@@ -42,7 +42,7 @@ else if(code_input==2){
                   printf("You selected coffee\n");
              printf("Enter quantity:");
             scanf("%d",&quantity);
-             price_coffe=15;
+             price_coffe=12;
              price_coffe=price_coffe*quantity;
 
               printf("Your total is:%d",price_coffe);
@@ -60,7 +60,7 @@ else if(code_input==4){
                  printf("You selected lassi\n");
              printf("Enter quantity:");
             scanf("%d",&quantity);
-             price_lassi=15;
+             price_lassi=30;
              price_lassi=price_lassi*quantity;
            
               printf("Your total is:%d",price_lassi);
